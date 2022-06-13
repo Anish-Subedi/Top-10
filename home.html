@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10</title>
+</head>
+<link rel="stylesheet" href="home.css">
+<body>
+    <div class="container">
+
+        <div id="header" class="bodycontainer">TOP 10 of everything (10)</div>
+
+          <div id="listtopic" class="bodycontainer">
+          </div>
+
+          <div id="img" class="bodycontainer"  onclick="search()">
+              <input type="button" value="search" id="searchbutton">
+          </div>
+
+          <div id="search" class="bodycontainer">
+              <form name="fform">
+              <input type="text" name="ftext" placeholder="for eg:Footballers" id="textbutton">
+            </form>
+          </div>
+
+        <div id="list" class="bodycontainer">
+            <div  id="leftlist" class="listclass">
+             <!-- <p id="demo"></p> -->
+             <div class="leftlisttopic">list</div>
+             <ol>
+                <a href="/footballers/footballers.html"> <li class="leftlist"></li></a>
+                 <li class="leftlist"></li>
+                 <li class="leftlist"></li>
+                 <li class="leftlist"></li>
+                 <li class="leftlist"></li>
+                 <li class="leftlist"></li>
+             </ol>
+            </div> 
+
+             <div id="listtext" class="listclass">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni nobis enim dignissimos cumque provident ab veritatis, similique ipsam labore eaque eligendi corporis quasi? Cum dicta ullam fuga quae temporibus repellat commodi sint, animi in amet veritatis dolor obcaecati excepturi non ut necessitatibus. Tempora recusandae maxime reiciendis nihil. Quos necessitatibus ducimus hic rem dolorum! Corporis cum voluptate neque sequi id nulla esse, animi rem. Commodi quo soluta laboriosam neque, enim magnam recusandae. Quam odio explicabo necessitatibus voluptates quos. Sed maxime id non repellendus hic dolorem! Sapiente, nihil quisquam reprehenderit sed neque odit asperiores, sit exercitationem incidunt dolorem dolorum debitis, id ducimus.</div>
+
+            <div id="listtable" class="listclass">
+                <div class="insidelisttopic">Search related:click text to open</div>
+                <div class="insidelistclass"  onclick="top1('1')"></div>
+                <div class="insidelistclass" onclick="top1('2')"></div>
+                <div class="insidelistclass" onclick="top1('3')"></div>
+                <div class="insidelistclass" onclick="top1('4')"></div>
+                <div class="insidelistclass" onclick="top1('5')"></div>
+                <div class="insidelistclass" ></div>
+            </div>
+    </div>
+<script src="home.js"></script>
+</body>
+</html>

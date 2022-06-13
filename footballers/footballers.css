@@ -1,0 +1,48 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10,500px);
+    height:100%;
+    width: 50%;
+    position: absolute;
+    left:25%;
+    grid-gap:10px;
+}
+.top{
+    /* border:2px solid red; */
+}
+#top1,#top2,#top3,#top4,#top5,#top6,#top7,#top8,#top9,#top10{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 10fr 10fr;
+    grid-gap:2px;
+}
+.top1,.top2,.top3,.top4,.top5,.top6,.top7,.top8,.top9,.top10{
+    /* border:2px solid  black; */
+}
+img{
+object-fit: contain;
+}
+#top12{
+    background:url("lionel.jpg");}
+#top22{
+        background:url("ronaldo.jpg");}
+#top32{
+background:url("rl.jpg");}
+#top42{
+background:url("mosalah.jpg");}    
+#top52{
+    background:url("mbappe.jpeg");}  
+#top62{
+    background:url("benzema.jpg");}  
+#top72{
+    background:url("haaland.jpeg"); 
+}
+#top82{
+}
+#top22,#top12,#top32,#top42,#top52,#top62,#top72,#top82,#top92,#top102{
+    background-repeat: repeat;
+    background-size:contain;
+}
+
+

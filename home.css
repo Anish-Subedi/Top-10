@@ -1,0 +1,93 @@
+body{
+    background-image:url("TOP 10.jpg");
+    background-repeat: no-repeat;
+    background-size: fill; 
+}
+.container{
+    border:2px solid black;
+    height:auto;
+    width:100%;
+    margin:0px;
+    display: grid;
+    grid-template-columns: 20fr 1fr 2fr;
+    grid-template-rows: 10fr 4fr 70fr;
+    grid-gap:1rem;
+  
+}
+.bodycontainer{
+    border: 2px solid brown;
+   
+}
+#header,#list{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#header{
+    color:purple;
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+}
+#list{
+    /* border:2px solid green; */
+    width:auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows:1fr;
+}
+.listclass{
+    border:2px solid black;
+}
+.leftlist{
+color:blue;
+font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+}
+.leftlist:hover{
+    text-decoration: underline;
+    color: red;
+}
+.leftlisttopic{
+    font-size:2rem;
+    text-decoration: underline;
+    padding:2rem;
+}
+#listtext{
+text-align: center;
+font-size: 1rem;
+margin:4rem 4rem 4rem 4rem;
+}
+
+#listtable{
+visibility:hidden;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 10fr;
+    cursor: pointer;
+}
+.insidelistclass{
+    border:2px solid violet;
+    text-align: left;
+    font-size: 2rem;
+    background-color:rgb(181, 210, 226);
+    color:rgb(255, 0, 0);
+}
+.insidelistclass:hover{
+    text-decoration: underline overline;
+    color: blueviolet;
+}
+.insidelisttopic{
+    font-size:2rem;
+    text-align: center;
+}
+#searchbutton:hover{
+    border-radius: 20%;
+    color:red;
+}
+#textbutton:hover{
+    border:2px solid blue;
+}
+
